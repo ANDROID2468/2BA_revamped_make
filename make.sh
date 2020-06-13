@@ -72,7 +72,7 @@ sudo rm -rf -v mount/priv-app/com.gotv.nflgamecenter.us.lite
 sudo rm -rf -v mount/priv-app/SlackerRadio
 sudo rm -rf -v mount/priv-app/LGSnapPage
 sudo rm -rf -v mount/priv-app/VZMobileSecurity
-
+sudo rm -rf -v mount/app/AmazonAudible/
 sudo rm -rf -v mount/priv-app/LGThinkFreeViewer
 sudo rm -rf -v mount/priv-app/LocationAgent
 sudo rm -rf -v mount/priv-app/com.customermobile.preload.vzw
