@@ -91,6 +91,7 @@ sudo rm -rf -v mount/addon.d/74-googlecamera.sh
 sudo rm -rf -v mount/addon.d/74-googlegallery.sh
 sudo rm -rf -v mount/addon.d/75-googlegallery.sh
 sudo rm -rf -v mount/addon.d/78-chromebrowser.sh
+sudo rm -rf -v mount/app/AndroidPay
 sudo rm -rf -v mount/app/AmbientSensePrebuilt
 sudo rm -rf -v mount/app/AmbientSensePrebuilt.apk
 sudo rm -rf -v mount/app/AmbientSensePrebuilt.odex
