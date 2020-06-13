@@ -1,0 +1,31 @@
+ui_print(" ");
+ui_print(" ");
+ui_print(" ***********************************************");
+ui_print(" *                2BA-revamped                 *");
+ui_print(" *                                             *");
+ui_print(" *                for VS986                    *");
+ui_print(" *              By ANDROID2468                 *");
+ui_print(" ***********************************************");
+ui_print(" ");
+
+set_progress(0.200000);
+ifelse(is_mounted("/system"), unmount("/system"));
+ui_print("flashing base system image...");
+
+package_extract_file("system.img", "/dev/block/bootdevice/by-name/system");
+
+set_progress(0.600000);
+ui_print("flashing boot image...");
+package_extract_file("boot.img", "/dev/block/bootdevice/by-name/boot");
+
+set_progress(0.700000);
+
+run_program("/sbin/mount", "/system");
+
+ui_print("patching system...");
+package_extract_dir("system", "/system");
+
+
+ifelse(is_mounted("/system"), unmount("/system"));
+set_progress(1.000000);
+ui_print("Install Completed");

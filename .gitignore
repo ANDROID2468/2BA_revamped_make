@@ -1,0 +1,7 @@
+out
+ext_apk
+mount
+*.zip
+*.img
+! Magisk.zip
+! boot.img
