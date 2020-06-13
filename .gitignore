@@ -2,6 +2,5 @@ out
 ext_apk
 mount
 *.zip
-*.img
+system.img
 ! Magisk.zip
-! boot.img
